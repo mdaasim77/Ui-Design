@@ -15,10 +15,54 @@ export default function App() {
             />
           </h1>
           {/* input part */}
-          <div className="mt-5 rounded-2xl bg-gray-200 flex justify-between p-5">
-            <input className=" rounded-2xl bg-gray-200 w-[80vw]" type="text" />
-            <button className="bg-orange-400">Add</button>
+          <div className="mt-5 rounded-3xl bg-gray-200 flex justify-between ">
+            <input
+              className="ms-5 rounded-3xl bg-gray-200 flex-1 focus:outline-none placeholder:text-gray-600"
+              placeholder="Enter Your Task"
+              type="text"
+            />
+            <button className="bg-orange-400 rounded-3xl px-10 py-3 text-white">
+              Add
+            </button>
           </div>
+
+          {/* unorder List part */}
+
+          <ul className="p-5">
+            <li
+              className="my-3 before:content-['']
+                  before:inline-block
+                  before:w-5 before:h-5
+                  before:mr-3
+                  before:bg-[url('src/images/unchecked.png')]
+                  before:bg-contain
+                  before:bg-no-repeat"
+            >
+              Task 1
+            </li>
+            <li
+              className="my-3 before:content-['']
+                    before:inline-block
+                    before:w-5 before:h-5
+                    before:mr-3
+                    before:bg-[url('src/images/unchecked.png')]
+                    before:bg-contain
+                    before:bg-no-repeat"
+            >
+              Task 2
+            </li>
+            <li
+              className="my-3 before:content-['']
+                      before:inline-block
+                      before:w-5 before:h-5
+                      before:mr-3
+                      before:bg-[url('src/images/unchecked.png')]
+                      before:bg-contain
+                      before:bg-no-repeat"
+            >
+              Task 3
+            </li>
+          </ul>
         </div>
       </div>
     </>
