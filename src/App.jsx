@@ -5,7 +5,7 @@ import Section2 from "./UI Project/Section2/Section2";
 import "remixicon/fonts/remixicon.css";
 
 export default function App() {
-  const user = [
+  const users = [
     {
       img: "girl.jpg",
       para: "lorem13 wjddncw ubc dfi aideu  uie dqiu duif",

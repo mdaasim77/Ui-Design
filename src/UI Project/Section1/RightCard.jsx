@@ -3,14 +3,13 @@ import RightCardContent from "./RightCardContent";
 
 export default function RightCard() {
   return (
-    <div className="h-full w-72 border relative rounded-3xl overflow-hidden">
+    <div className="h-full w-72 border relative rounded-3xl overflow-hidden shrink-0">
       <img
         className="h-full w-full object-cover"
         src="src/images/man.jpg"
         alt="man"
       />
-      <RightCardContent />
-      <RightCardContent />
+      <RightCardContent/>
     </div>
   );
 }
