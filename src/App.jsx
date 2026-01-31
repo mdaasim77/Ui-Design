@@ -21,10 +21,15 @@ export default function App() {
       para: "lorem13 wjddncw ubc dfi aideu  uie dqiu duif",
       btn: "Programer",
     },
+    {
+      img: "man.jpg",
+      para: "lorem13 wjddncw ubc dfi aideu  uie dqiu duif",
+      btn: "Programer",
+    },
   ];
   return (
     <div>
-      <Section1 />
+      <Section1  users={users}/>
       <Section2 />
       {/* <Parent /> */}
     </div>
