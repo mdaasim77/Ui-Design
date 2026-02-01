@@ -13,12 +13,12 @@ export default function App() {
     },
     {
       img: "man2.jpg",
-      para: "lorem13 wjddncw ubc dfi aideu  uie dqiu duif",
+      para: "Thios iais mthe good aole, map",
       btn: "Manager",
     },
     {
       img: "man3.jpg",
-      para: "lorem13 wjddncw ubc dfi aideu  uie dqiu duif",
+      para: "li am the biy who is billones",
       btn: "Programer",
     },
     {
