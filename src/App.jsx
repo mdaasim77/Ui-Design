@@ -25,7 +25,7 @@ export default function App() {
       img: "man.jpg",
       para: "lorem13 wjddncw ubc dfi aideu  uie dqiu duif",
       btn: "Programer",
-    },
+    }, 
   ];
   return (
     <div>
