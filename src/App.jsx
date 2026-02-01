@@ -3,6 +3,8 @@ import Parent from "./Props/Parent";
 import Section1 from "./UI Project/Section1/Section1";
 import Section2 from "./UI Project/Section2/Section2";
 import "remixicon/fonts/remixicon.css";
+import { motion } from "motion/react";
+motion
 
 export default function App() {
   const users = [
