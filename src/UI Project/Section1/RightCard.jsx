@@ -7,14 +7,13 @@ export default function RightCard(props) {
   console.log(props.para);
   // console.log(props.id);
   return (
-    <div  className="h-full w-72 border relative rounded-3xl overflow-hidden shrink-0">
+    <div className="w-72 border relative rounded-3xl overflow-hidden shrink-0">
       <img
         className="h-full w-full object-cover"
         // src={img}
         src={`src/images/${props.img}`}
       />
-      <RightCardContent  id={props.id+1} para={props.para} btn={props.btn} />
+      <RightCardContent id={props.id + 1} para={props.para} btn={props.btn} />
     </div>
   );
 }
- 

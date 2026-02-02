@@ -5,24 +5,32 @@ export default function RightContent(props) {
   console.log("Right content");
   console.log(props.users);
   return (
-    <motion.div
-      initial={{ x: 0, opacity: 0 }}
-      animate={{ x: 500, opacity: 1 }}
-      transition={{ duration: 1 }}
+    <div
       id="rightcard"
-      className="h-full w-2/3 p-6 flex gap-10 flex-nowrap overflow-x-auto"
+      className="p-6 overflow-x-auto h-full w-2/3"
     >
-      {props.users.map((elem, idx) => {
-        return (
-          <RightCard
-            key={idx}
-            id={idx}
-            img={elem.img}
-            para={elem.para}
-            btn={elem.btn}
-          />
-        );
-      })}
-    </motion.div>
+      <motion.div
+      className=" flex gap-10 flex-nowrap"
+        // animate={{ x: ["0%", "-50%"] }}
+        // transition={{
+        //   duration: 10,
+        //   repeat: Infinity,
+        //   repeatType: "loop",
+        //   ease: "linear",
+        // }}
+      >
+        {props.users.map((elem, idx) => {
+          return (
+            <RightCard
+              key={idx}
+              id={idx}
+              img={elem.img}
+              para={elem.para}
+              btn={elem.btn}
+            />
+          );
+        })}
+      </motion.div>
+    </div>
   );
 }

@@ -27,6 +27,25 @@ export default function App() {
       img: "man.jpg",
       para: "lorem13 wjddncw ubc dfi aideu  uie dqiu duif",
       btn: "Programer",
+    }, {
+      img: "girl.jpg",
+      para: "lorem13 wjddncw ubc dfi aideu  uie dqiu duif",
+      btn: "Designer",
+    },
+    {
+      img: "man2.jpg",
+      para: "Thios iais mthe good aole, map",
+      btn: "Manager",
+    },
+    {
+      img: "man3.jpg",
+      para: "li am the biy who is billones",
+      btn: "Programer",
+    },
+    {
+      img: "man.jpg",
+      para: "lorem13 wjddncw ubc dfi aideu  uie dqiu duif",
+      btn: "Programer",
     }, 
   ];
   return (
