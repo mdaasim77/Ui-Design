@@ -11,13 +11,13 @@ export default function RightContent(props) {
     >
       <motion.div
       className=" flex gap-10 flex-nowrap"
-        // animate={{ x: ["0%", "-50%"] }}
-        // transition={{
-        //   duration: 10,
-        //   repeat: Infinity,
-        //   repeatType: "loop",
-        //   ease: "linear",
-        // }}
+        animate={{ x: ["0%", "-50%"] }}
+        transition={{
+          duration: 10,
+          repeat: Infinity,
+          repeatType: "loop",
+          ease: "linear",
+        }}
       >
         {props.users.map((elem, idx) => {
           return (
