@@ -5,7 +5,7 @@ export default function Navbar() {
         TARGET AUDIENCE
       </button>
       <button className="rounded-full bg-gray-200 text-black py-2 px-6 text-sm">
-        DIGITAL BANKING PLATFORM
+        DIGITAL BANKING PLATFOR
       </button>
     </nav>
   );
