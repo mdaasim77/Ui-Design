@@ -1,4 +1,3 @@
-
 export default function Navbar() {
   return (
     <nav className="h-[10vh] w-full  text-black flex items-center justify-between px-10 border">
